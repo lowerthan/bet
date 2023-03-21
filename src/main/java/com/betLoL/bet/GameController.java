@@ -21,7 +21,7 @@ public class GameController {
         URL url = new URL(testurl);
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
         conn.setRequestMethod("GET");
-        conn.setRequestProperty("X-Riot-Token", "RGAPI-73b012dc-0400-4064-bf35-d3096e179dbf");
+        conn.setRequestProperty("X-Riot-Token", "");
 
         int responseCode = conn.getResponseCode(); // 응답결과
         String result = "";
