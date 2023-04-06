@@ -12,10 +12,6 @@ public class LoginController {
     @Autowired
     private LoginService loginService;
 
-    @RequestMapping("/Login")
-    public String Login(){
-        return "Login";
-    }
 
 
 }
