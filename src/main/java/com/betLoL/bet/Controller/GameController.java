@@ -43,14 +43,6 @@ public class GameController {
 
         return result;
     }
-
-    @PostMapping("/Testtlqkf")
-    public String Testtlqkf() {
-        return "Testtlqkf";
-    }
-
-
-
 }
 
 
